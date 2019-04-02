@@ -1,0 +1,42 @@
+table{
+    color: lime;
+    margin: 50px auto;
+    td{
+        padding: 5px 20px;
+        font-size: 24px;
+        cursor: pointer;
+        border: 1px solid lime;
+        &.colored{
+            background-color: lime;
+        }
+    }
+}
+
+
+.control_panel{
+    text-align: center;
+    input{
+        color: lime;
+        border: 1px solid lime;
+        background-color: transparent;
+        font-size: 20px;
+        padding: 5px;
+        outline: none;
+        border-radius: 5px;
+    }
+    span{
+        color: lime;
+    }
+    div{
+        margin: 25px;
+    }
+    p{
+        display: inline;
+        color: lime;
+        padding: 10px;
+        cursor: pointer;
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid lime;
+    }
+}
