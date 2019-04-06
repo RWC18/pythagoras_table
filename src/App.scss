@@ -1,11 +1,21 @@
 table{
     color: lime;
     margin: 50px auto;
+    tr:nth-child(1){ td{
+        color: lime;
+
+    }
+    }
     td{
-        padding: 5px 20px;
-        font-size: 24px;
+        padding: 5px 25px;
+        text-align: center;
+        color: #01011b;
+        font-size: 20px;
         cursor: pointer;
         border: 1px solid lime;
+        &.first{
+            color: lime;
+        } 
         &.colored{
             background-color: lime;
         }
@@ -15,6 +25,10 @@ table{
 
 .control_panel{
     text-align: center;
+    .error{
+        color: red;
+        border: 1px solid red;
+    }
     input{
         color: lime;
         border: 1px solid lime;
